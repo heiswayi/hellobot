@@ -1,0 +1,33 @@
+# Basic site info
+title:              "HelloBot"
+description:        "Just another AI Chatbot from Heiswayi Nrird"
+
+# Site URL settings
+url:                https://heiswayi.nrird.com # main url
+baseurl:            /hellobot # for gh-pages
+
+# Google Analytics ID
+google_analytics_code: UA-58296043-5
+
+# Build settings
+source:             ./
+destination:        ./_site
+markdown:           kramdown
+highlighter:        rouge
+timezone:           Asia/Kuala_Lumpur
+exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md"]
+
+# Site configurations
+compress_html:
+  clippings:        all
+  comments:         ["<!-- ", " -->"]
+  endings:          all
+  ignore:
+    envs:           [local]
+  blanklines:       false
+  profile:          false
+  startings:        [html, head, body]
+
+sass:
+  sass_dir:         assets/scss
+  style:            compressed # expanded

@@ -1,0 +1,67 @@
+body {
+  background: #fff;
+  margin: 0;
+}
+
+.site-wrapper {
+  display: table;
+  background-color: transparent;
+  z-index: 1000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+
+  .inner-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.terminal {
+  /*
+  -webkit-box-shadow: 0 0 32px 2px rgba(0,0,0,0.07);
+  -moz-box-shadow: 0 0 32px 2px rgba(0,0,0,0.07);
+  box-shadow: 0 0 32px 2px rgba(0,0,0,0.07);
+  */
+  overflow: auto;
+  color: #0074D9;
+  background: #fff;
+  scrollbar-face-color: #aaa;
+  scrollbar-shadow-color: #ddd;
+  scrollbar-highlight-color: #ddd;
+  scrollbar-3dlight-color: #ddd;
+  scrollbar-darkshadow-color: #ddd;
+  scrollbar-track-color: #ddd;
+  scrollbar-arrow-color: #ddd;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #ddd;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #ddd;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+  }
+}
+
+.terminal,
+.cmd {
+  color: #0074D9;
+}
+
+.cmd span,
+.terminal-output div div span {
+  font-family: Consolas, monaco, monospace;
+  font-size: 16px;
+  line-height: 20px;
+}
