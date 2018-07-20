@@ -3,7 +3,7 @@ title:              "HelloBot"
 description:        "Just another AI Chatbot from Heiswayi Nrird"
 
 # Site URL settings
-url:                https://heiswayi.nrird.com # main url
+url:                https://heiswayi.github.io # main url
 baseurl:            /hellobot # for gh-pages
 
 # Google Analytics ID
