@@ -24,7 +24,7 @@
 ! var book     = none
 ! var author   = none
 ! var job      = robot
-! var website  = heiswayi.nrird.com/hellobot
+! var website  = heiswayi.github.io/hellobot
 
 // Substitutions
 ! sub &quot;    = "
